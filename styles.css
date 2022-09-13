@@ -1,0 +1,135 @@
+*{
+  box-sizing: border-box;
+}
+body,html{
+  font-size:20px;
+  color: rgba(0,0,0,0.87);
+  font-family: "montserrat,Sans-Serif";
+  line-height: 1,6;
+  margin: 0;
+  font-weight: 500;
+}
+  .topbar nav a{
+    color: gray;
+    text-decoration: none;
+    font-weight: 500;
+    margin: 0 53px;
+  }
+  .topbar nav a:hover,.topbar nav a.active{
+    color:black;
+  }
+  .topbar li:first-child{
+    padding-top: 0;
+  }
+ .topbar li:last-child{
+   padding-bottom: 0;
+ }
+.topbar{
+  position: fixed;
+  top:0;
+  left:0;
+  right: 0;
+  width: 100%;
+  background: white;
+  padding: 30px;
+}
+.topbar nav{
+  float: left;
+}
+.social{
+  float: right;
+}
+.social a{
+  padding:0 12px;
+  opacity: 0.5;
+}
+.social a:hover{
+  opacity: 1;
+}
+.banniere {
+  background:no-repeat center center/cover url(img/bannière.jpg);
+  height: 427px;
+}
+.main{
+  background: #FFF;
+  float: left;
+  width:calc(100% - 375px);
+  box-shadow: 0 4px 30px rgba(0 0 0 .05) ;
+  z-index: 2;
+  position: relative;
+}
+.sidebar-title{
+  font-size: 30px;
+  color:#000;
+  margin: 15px 0;
+}
+.sidebar a {
+  color:#9F9F9F;
+  text-decoration: none;
+}
+.sidebar a:hover{
+  text-decoration: underline;
+}
+.sidebar hr{
+  border-color:#C4C4C4;
+  margin:50px 0;
+}
+.sidebar ul{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  line-height: 2,3px;
+}
+.sidebar li{
+  padding: 6px 0;
+}
+.sidebar-title:first-child{
+  margin-top:0;
+}
+.sidebar{
+  background: #FBFBFB;
+  float: right;
+  width:375px;
+  padding: 40px;
+  z-index: 1;
+  position: relative;
+}
+.footer{
+  clear:both;
+}
+.article-img{
+  float: left;
+  width:308px;
+  margin-right: 25px;
+}
+
+.article{
+  overflow:hidden;
+  margin:50px 0;
+}
+.article-date{
+  font-weight: 300;
+  color:rgba(0, 0, 0, .6);
+  margin-bottom: 5px;
+}
+.article-title{
+  font-size: 2,25rem;
+  line-height: 1,1px;
+  font-family: "cardo",Serif;
+  margin:0,0,15,0;
+}
+.article a{
+  color: inherit;
+  text-decoration: none;
+}
+.article a:hover{
+  text-decoration: underline;
+}
+.article-img img{
+  width:100%;
+  height:auto;
+}
+.article-img:hover{
+  transform-origin: left top;
+  transform: scale(1.1) rotate(20deg);
+}
