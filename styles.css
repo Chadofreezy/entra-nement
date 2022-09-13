@@ -47,7 +47,7 @@ body,html{
   opacity: 1;
 }
 .banniere {
-  background:no-repeat center center/cover url(img/bannière.jpg);
+  background:no-repeat center center/cover url(bannière.jpg);
   height: 427px;
 }
 .main{
